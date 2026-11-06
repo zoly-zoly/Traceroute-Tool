@@ -24,7 +24,7 @@ A robust, cross-platform Python CLI traceroute utility that streams network hops
 Clone the repository and install it locally using `pip`:
 
 ```bash
-git clone https://github.com/username/py-traceroute-tool.git
+git clone https://github.com/zoly-zoly/Traceroute-Tool.git
 cd py-traceroute-tool
 pip install .
 ```
