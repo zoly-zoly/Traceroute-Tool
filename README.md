@@ -1,6 +1,5 @@
 # Py Traceroute Tool (`py-traceroute-tool`)
 
-[![CI](https://github.com/username/py-traceroute-tool/actions/workflows/ci.yml/badge.svg)](https://github.com/username/py-traceroute-tool/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 
