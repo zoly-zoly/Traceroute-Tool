@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-traceroute-tool"
+version = "1.0.0"
+description = "A robust, cross-platform Python CLI traceroute utility with real-time hop streaming and JSON export."
+readme = "README.md"
+authors = [
+    { name = "Developer", email = "developer@example.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Networking",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+py-traceroute = "traceroute_tool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["traceroute_tool*"]
